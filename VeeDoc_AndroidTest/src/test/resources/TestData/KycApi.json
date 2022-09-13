@@ -1,0 +1,14 @@
+{
+  "endPoint": "https://stg.yap.co",
+  "client_id": "vikas@yopmail.com",
+  "client_secret": "1212",
+   "isInternalUser": "true",
+  "grant_type": "client_credentials",
+  "cookie": "XSRF-TOKEN=3943cf56-2625-4f20-acb7-ae5a3fe7c4a8",
+  "xsrfToken": "3943cf56-2625-4f20-acb7-ae5a3fe7c4a8"
+  
+}
+
+	
+	
+	

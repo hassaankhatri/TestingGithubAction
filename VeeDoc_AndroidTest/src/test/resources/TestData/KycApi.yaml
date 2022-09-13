@@ -1,0 +1,27 @@
+AccessToken:
+  endPoint: "https://stg.yap.co"
+  client_id: "vikas@yopmail.com"
+  client_secret: "1212"
+  isInternalUser: "True"
+  grant_type: "client_credentials"
+  cookie: "XSRF-TOKEN=3943cf56-2625-4f20-acb7-ae5a3fe7c4a8"
+  xsrfToken: "3943cf56-2625-4f20-acb7-ae5a3fe7c4a8"
+  
+FirstCallApproval:
+  status: "INITIAL_VERIFICATION_SUCCESSFULL"
+  action: "ONBOARDING"
+  rejected_code: ""
+  rejected_reason: ""
+  cookie: "XSRF-TOKEN=3943cf56-2625-4f20-acb7-ae5a3fe7c4a8"
+  xsrfToken: "3943cf56-2625-4f20-acb7-ae5a3fe7c4a8"
+  Authorization: "Bearer "
+  
+ShipmentInfo:
+  cardSerialNumber: "1000000007021"
+  deliveryDate: "2021-04-05"
+  shipmentDate: "2021-04-05"
+  shipmentId: "138557"
+  shipmentStatus: "11"
+  cookie: "XSRF-TOKEN=3943cf56-2625-4f20-acb7-ae5a3fe7c4a8"
+  xsrfToken: "3943cf56-2625-4f20-acb7-ae5a3fe7c4a8"
+  Authorization: "Bearer "  

@@ -1,0 +1,9 @@
+{
+  "deviceName": "Appium",
+  "uid": "emulator-5554",
+  "pname": "Android",
+  "version": "11.0",
+  "emulator": "Android Emulator",
+  "noReset": "false",
+  "app": "/../app/build/outputs/apk/qa/debug/app-qa-debug.apk"
+}

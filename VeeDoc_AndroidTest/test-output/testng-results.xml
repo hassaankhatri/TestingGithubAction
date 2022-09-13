@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="44" total="61" passed="17" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-05T15:46:15 PKT" name="Suite" finished-at="2022-08-05T16:00:21 PKT" duration-ms="846325">
+    <groups>
+    </groups>
+    <test started-at="2022-08-05T15:46:15 PKT" name="Login" finished-at="2022-08-05T15:46:47 PKT" duration-ms="32186">
+      <class name="Tests.BaseClass">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.BaseClass@4310d43]" started-at="2022-08-05T15:46:15 PKT" name="setup" finished-at="2022-08-05T15:46:31 PKT" duration-ms="15407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Tests.BaseClass@4310d43]" started-at="2022-08-05T15:46:47 PKT" name="teardown" finished-at="2022-08-05T15:46:47 PKT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Tests.BaseClass -->
+      <class name="Tests.TestVeeDoc_Login">
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:Tests.TestVeeDoc_Login@13fd2ccd]" started-at="2022-08-05T15:46:31 PKT" name="startTest" finished-at="2022-08-05T15:46:31 PKT" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.TestVeeDoc_Login.Veedoc_Login(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="Veedoc_Login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Tests.TestVeeDoc_Login@13fd2ccd]" started-at="2022-08-05T15:46:31 PKT" name="Veedoc_Login" data-provider="logindata" finished-at="2022-08-05T15:46:47 PKT" duration-ms="16270" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hassaan.khatri@veemed.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@1234567]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Khatri, H]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Veedoc_Login -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.TestVeeDoc_Login@13fd2ccd]" started-at="2022-08-05T15:46:47 PKT" name="getResult" finished-at="2022-08-05T15:46:47 PKT" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Veedoc_Login status=SUCCESS method=TestVeeDoc_Login.Veedoc_Login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Tests.TestVeeDoc_Login@13fd2ccd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- Tests.TestVeeDoc_Login -->
+    </test> <!-- Login -->
+    <test started-at="2022-08-05T15:46:47 PKT" name="Change Password" finished-at="2022-08-05T15:47:38 PKT" duration-ms="50659">
+      <class name="Tests.BaseClass">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.BaseClass@60099951]" started-at="2022-08-05T15:46:47 PKT" name="setup" finished-at="2022-08-05T15:47:02 PKT" duration-ms="14334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Tests.BaseClass@60099951]" started-at="2022-08-05T15:47:38 PKT" name="teardown" finished-at="2022-08-05T15:47:38 PKT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Tests.BaseClass -->
+      <class name="Tests.TestVeeDoc_ChangePassword">
+        <test-method is-config="true" signature="before_test()[pri:0, instance:Tests.TestVeeDoc_ChangePassword@2e385cce]" started-at="2022-08-05T15:47:02 PKT" name="before_test" finished-at="2022-08-05T15:47:02 PKT" depends-on-methods="Tests.BaseClass.setup" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before_test -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:Tests.TestVeeDoc_ChangePassword@2e385cce]" started-at="2022-08-05T15:47:02 PKT" name="startTest" finished-at="2022-08-05T15:47:02 PKT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.TestVeeDoc_ChangePassword.Veedoc_ChangeNewPassword(java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="Veedoc_ChangeNewPassword(java.lang.String,java.lang.String)[pri:0, instance:Tests.TestVeeDoc_ChangePassword@2e385cce]" started-at="2022-08-05T15:47:02 PKT" name="Veedoc_ChangeNewPassword" data-provider="changePass" finished-at="2022-08-05T15:47:22 PKT" duration-ms="20584" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test@1234567]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Veedoc_ChangeNewPassword -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.TestVeeDoc_ChangePassword@2e385cce]" started-at="2022-08-05T15:47:22 PKT" name="getResult" finished-at="2022-08-05T15:47:22 PKT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Veedoc_ChangeNewPassword status=SUCCESS method=TestVeeDoc_ChangePassword.Veedoc_ChangeNewPassword(java.lang.String,java.lang.String)[pri:0, instance:Tests.TestVeeDoc_ChangePassword@2e385cce] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="Veedoc_ChangeOldPassword(java.lang.String,java.lang.String)[pri:0, instance:Tests.TestVeeDoc_ChangePassword@2e385cce]" started-at="2022-08-05T15:47:22 PKT" name="Veedoc_ChangeOldPassword" data-provider="changePass" finished-at="2022-08-05T15:47:38 PKT" duration-ms="15611" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test@1234567]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Veedoc_ChangeOldPassword -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:Tests.TestVeeDoc_ChangePassword@2e385cce]" started-at="2022-08-05T15:47:22 PKT" name="startTest" finished-at="2022-08-05T15:47:22 PKT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.TestVeeDoc_ChangePassword.Veedoc_ChangeOldPassword(java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.TestVeeDoc_ChangePassword@2e385cce]" started-at="2022-08-05T15:47:38 PKT" name="getResult" finished-at="2022-08-05T15:47:38 PKT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Veedoc_ChangeOldPassword status=SUCCESS method=TestVeeDoc_ChangePassword.Veedoc_ChangeOldPassword(java.lang.String,java.lang.String)[pri:0, instance:Tests.TestVeeDoc_ChangePassword@2e385cce] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- Tests.TestVeeDoc_ChangePassword -->
+    </test> <!-- Change Password -->
+    <test started-at="2022-08-05T15:47:38 PKT" name="Group Session" finished-at="2022-08-05T15:48:45 PKT" duration-ms="66487">
+      <class name="Tests.BaseClass">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.BaseClass@1ed4ae0f]" started-at="2022-08-05T15:47:38 PKT" name="setup" finished-at="2022-08-05T15:47:52 PKT" duration-ms="14021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Tests.BaseClass@1ed4ae0f]" started-at="2022-08-05T15:48:45 PKT" name="teardown" finished-at="2022-08-05T15:48:45 PKT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Tests.BaseClass -->
+      <class name="Tests.TestVeeDoc_GroupSessions">
+        <test-method is-config="true" signature="before_test()[pri:0, instance:Tests.TestVeeDoc_GroupSessions@54c5a2ff]" started-at="2022-08-05T15:47:52 PKT" name="before_test" finished-at="2022-08-05T15:47:52 PKT" depends-on-methods="Tests.BaseClass.setup" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before_test -->
+        <test-method signature="Veedoc_AddGroupAppointment(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:Tests.TestVeeDoc_GroupSessions@54c5a2ff]" started-at="2022-08-05T15:47:52 PKT" name="Veedoc_AddGroupAppointment" data-provider="groupdata" finished-at="2022-08-05T15:48:36 PKT" duration-ms="44317" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test Group]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hassaan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Khatri]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[hassaan.khatri@veemed.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[3233887515]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Veedoc_AddGroupAppointment -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:Tests.TestVeeDoc_GroupSessions@54c5a2ff]" started-at="2022-08-05T15:47:52 PKT" name="startTest" finished-at="2022-08-05T15:47:52 PKT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.TestVeeDoc_GroupSessions.Veedoc_AddGroupAppointment(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.TestVeeDoc_GroupSessions@54c5a2ff]" started-at="2022-08-05T15:48:36 PKT" name="getResult" finished-at="2022-08-05T15:48:36 PKT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Veedoc_AddGroupAppointment status=SUCCESS method=TestVeeDoc_GroupSessions.Veedoc_AddGroupAppointment(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:Tests.TestVeeDoc_GroupSessions@54c5a2ff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:Tests.TestVeeDoc_GroupSessions@54c5a2ff]" started-at="2022-08-05T15:48:36 PKT" name="startTest" finished-at="2022-08-05T15:48:36 PKT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.TestVeeDoc_GroupSessions.Veedoc_DeleteGroupAppointment() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="Veedoc_DeleteGroupAppointment()[pri:2, instance:Tests.TestVeeDoc_GroupSessions@54c5a2ff]" started-at="2022-08-05T15:48:36 PKT" name="Veedoc_DeleteGroupAppointment" finished-at="2022-08-05T15:48:45 PKT" duration-ms="8079" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Veedoc_DeleteGroupAppointment -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.TestVeeDoc_GroupSessions@54c5a2ff]" started-at="2022-08-05T15:48:45 PKT" name="getResult" finished-at="2022-08-05T15:48:45 PKT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Veedoc_DeleteGroupAppointment status=SUCCESS method=TestVeeDoc_GroupSessions.Veedoc_DeleteGroupAppointment()[pri:2, instance:Tests.TestVeeDoc_GroupSessions@54c5a2ff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- Tests.TestVeeDoc_GroupSessions -->
+    </test> <!-- Group Session -->
+    <test started-at="2022-08-05T15:48:45 PKT" name="Outpatient Schedule" finished-at="2022-08-05T15:49:36 PKT" duration-ms="51113">
+      <class name="Tests.BaseClass">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.BaseClass@53fe15ff]" started-at="2022-08-05T15:48:45 PKT" name="setup" finished-at="2022-08-05T15:48:59 PKT" duration-ms="14373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Tests.BaseClass@53fe15ff]" started-at="2022-08-05T15:49:36 PKT" name="teardown" finished-at="2022-08-05T15:49:36 PKT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Tests.BaseClass -->
+      <class name="Tests.TestVeeDoc_OutpatientSchedule">
+        <test-method is-config="true" signature="before_test()[pri:0, instance:Tests.TestVeeDoc_OutpatientSchedule@449a4f23]" started-at="2022-08-05T15:48:59 PKT" name="before_test" finished-at="2022-08-05T15:48:59 PKT" depends-on-methods="Tests.BaseClass.setup" duration-ms="59" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before_test -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:Tests.TestVeeDoc_OutpatientSchedule@449a4f23]" started-at="2022-08-05T15:48:59 PKT" name="startTest" finished-at="2022-08-05T15:48:59 PKT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.TestVeeDoc_OutpatientSchedule.Veedoc_OutpatientSchedule() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="Veedoc_OutpatientSchedule()[pri:0, instance:Tests.TestVeeDoc_OutpatientSchedule@449a4f23]" started-at="2022-08-05T15:48:59 PKT" name="Veedoc_OutpatientSchedule" finished-at="2022-08-05T15:49:36 PKT" duration-ms="36678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Veedoc_OutpatientSchedule -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.TestVeeDoc_OutpatientSchedule@449a4f23]" started-at="2022-08-05T15:49:36 PKT" name="getResult" finished-at="2022-08-05T15:49:36 PKT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Veedoc_OutpatientSchedule status=SUCCESS method=TestVeeDoc_OutpatientSchedule.Veedoc_OutpatientSchedule()[pri:0, instance:Tests.TestVeeDoc_OutpatientSchedule@449a4f23] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- Tests.TestVeeDoc_OutpatientSchedule -->
+    </test> <!-- Outpatient Schedule -->
+    <test started-at="2022-08-05T15:49:36 PKT" name="Schedule" finished-at="2022-08-05T15:50:20 PKT" duration-ms="44591">
+      <class name="Tests.BaseClass">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.BaseClass@2eae8e6e]" started-at="2022-08-05T15:49:36 PKT" name="setup" finished-at="2022-08-05T15:49:50 PKT" duration-ms="14750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Tests.BaseClass@2eae8e6e]" started-at="2022-08-05T15:50:20 PKT" name="teardown" finished-at="2022-08-05T15:50:20 PKT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Tests.BaseClass -->
+      <class name="Tests.TestVeeDoc_Schedule">
+        <test-method is-config="true" signature="before_test()[pri:0, instance:Tests.TestVeeDoc_Schedule@8f2ef19]" started-at="2022-08-05T15:49:50 PKT" name="before_test" finished-at="2022-08-05T15:49:50 PKT" depends-on-methods="Tests.BaseClass.setup" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before_test -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:Tests.TestVeeDoc_Schedule@8f2ef19]" started-at="2022-08-05T15:49:50 PKT" name="startTest" finished-at="2022-08-05T15:49:50 PKT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.TestVeeDoc_Schedule.Veedoc_DayOff() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="Veedoc_DayOff()[pri:0, instance:Tests.TestVeeDoc_Schedule@8f2ef19]" started-at="2022-08-05T15:49:50 PKT" name="Veedoc_DayOff" finished-at="2022-08-05T15:50:20 PKT" duration-ms="29790" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Veedoc_DayOff -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.TestVeeDoc_Schedule@8f2ef19]" started-at="2022-08-05T15:50:20 PKT" name="getResult" finished-at="2022-08-05T15:50:20 PKT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Veedoc_DayOff status=SUCCESS method=TestVeeDoc_Schedule.Veedoc_DayOff()[pri:0, instance:Tests.TestVeeDoc_Schedule@8f2ef19] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- Tests.TestVeeDoc_Schedule -->
+    </test> <!-- Schedule -->
+    <test started-at="2022-08-05T15:50:20 PKT" name="Search Appointment" finished-at="2022-08-05T15:51:32 PKT" duration-ms="71982">
+      <class name="Tests.BaseClass">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.BaseClass@76b1e9b8]" started-at="2022-08-05T15:50:20 PKT" name="setup" finished-at="2022-08-05T15:50:36 PKT" duration-ms="15273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Tests.BaseClass@76b1e9b8]" started-at="2022-08-05T15:51:32 PKT" name="teardown" finished-at="2022-08-05T15:51:32 PKT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Tests.BaseClass -->
+      <class name="Tests.TestVeeDoc_SearchAppointment">
+        <test-method is-config="true" signature="before_test()[pri:0, instance:Tests.TestVeeDoc_SearchAppointment@712625fd]" started-at="2022-08-05T15:50:36 PKT" name="before_test" finished-at="2022-08-05T15:50:36 PKT" depends-on-methods="Tests.BaseClass.setup" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before_test -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:Tests.TestVeeDoc_SearchAppointment@712625fd]" started-at="2022-08-05T15:50:36 PKT" name="startTest" finished-at="2022-08-05T15:50:36 PKT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.TestVeeDoc_SearchAppointment.Veedoc_QuickAppointment(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="Veedoc_QuickAppointment(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:Tests.TestVeeDoc_SearchAppointment@712625fd]" started-at="2022-08-05T15:50:36 PKT" name="Veedoc_QuickAppointment" data-provider="appointdata" finished-at="2022-08-05T15:51:13 PKT" duration-ms="37573" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hassaan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Khatri]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[hassaan.khatri@veemed.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[3233887515]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Veedoc_QuickAppointment -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.TestVeeDoc_SearchAppointment@712625fd]" started-at="2022-08-05T15:51:13 PKT" name="getResult" finished-at="2022-08-05T15:51:13 PKT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Veedoc_QuickAppointment status=SUCCESS method=TestVeeDoc_SearchAppointment.Veedoc_QuickAppointment(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:Tests.TestVeeDoc_SearchAppointment@712625fd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:Tests.TestVeeDoc_SearchAppointment@712625fd]" started-at="2022-08-05T15:51:13 PKT" name="startTest" finished-at="2022-08-05T15:51:13 PKT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.TestVeeDoc_SearchAppointment.VeeDoc_SearchAppointment() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="VeeDoc_SearchAppointment()[pri:2, instance:Tests.TestVeeDoc_SearchAppointment@712625fd]" started-at="2022-08-05T15:51:13 PKT" name="VeeDoc_SearchAppointment" finished-at="2022-08-05T15:51:32 PKT" duration-ms="19054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VeeDoc_SearchAppointment -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.TestVeeDoc_SearchAppointment@712625fd]" started-at="2022-08-05T15:51:32 PKT" name="getResult" finished-at="2022-08-05T15:51:32 PKT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VeeDoc_SearchAppointment status=SUCCESS method=TestVeeDoc_SearchAppointment.VeeDoc_SearchAppointment()[pri:2, instance:Tests.TestVeeDoc_SearchAppointment@712625fd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- Tests.TestVeeDoc_SearchAppointment -->
+    </test> <!-- Search Appointment -->
+    <test started-at="2022-08-05T15:51:32 PKT" name="Session History" finished-at="2022-08-05T15:53:08 PKT" duration-ms="95794">
+      <class name="Tests.BaseClass">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.BaseClass@4c60d6e9]" started-at="2022-08-05T15:51:32 PKT" name="setup" finished-at="2022-08-05T15:51:46 PKT" duration-ms="13767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Tests.BaseClass@4c60d6e9]" started-at="2022-08-05T15:53:08 PKT" name="teardown" finished-at="2022-08-05T15:53:08 PKT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Tests.BaseClass -->
+      <class name="Tests.TestVeeDoc_SessionHistory">
+        <test-method is-config="true" signature="before_test()[pri:0, instance:Tests.TestVeeDoc_SessionHistory@15043a2f]" started-at="2022-08-05T15:51:46 PKT" name="before_test" finished-at="2022-08-05T15:51:46 PKT" depends-on-methods="Tests.BaseClass.setup" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before_test -->
+        <test-method signature="Veedoc_ConnectEndpoint()[pri:1, instance:Tests.TestVeeDoc_SessionHistory@15043a2f]" started-at="2022-08-05T15:51:46 PKT" name="Veedoc_ConnectEndpoint" finished-at="2022-08-05T15:52:54 PKT" duration-ms="68155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Veedoc_ConnectEndpoint -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:Tests.TestVeeDoc_SessionHistory@15043a2f]" started-at="2022-08-05T15:51:46 PKT" name="startTest" finished-at="2022-08-05T15:51:46 PKT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.TestVeeDoc_SessionHistory.Veedoc_ConnectEndpoint() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.TestVeeDoc_SessionHistory@15043a2f]" started-at="2022-08-05T15:52:54 PKT" name="getResult" finished-at="2022-08-05T15:52:54 PKT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Veedoc_ConnectEndpoint status=SUCCESS method=TestVeeDoc_SessionHistory.Veedoc_ConnectEndpoint()[pri:1, instance:Tests.TestVeeDoc_SessionHistory@15043a2f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="Veedoc_SessionHistory()[pri:2, instance:Tests.TestVeeDoc_SessionHistory@15043a2f]" started-at="2022-08-05T15:52:54 PKT" name="Veedoc_SessionHistory" finished-at="2022-08-05T15:53:08 PKT" duration-ms="13839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Veedoc_SessionHistory -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:Tests.TestVeeDoc_SessionHistory@15043a2f]" started-at="2022-08-05T15:52:54 PKT" name="startTest" finished-at="2022-08-05T15:52:54 PKT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.TestVeeDoc_SessionHistory.Veedoc_SessionHistory() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.TestVeeDoc_SessionHistory@15043a2f]" started-at="2022-08-05T15:53:08 PKT" name="getResult" finished-at="2022-08-05T15:53:08 PKT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Veedoc_SessionHistory status=SUCCESS method=TestVeeDoc_SessionHistory.Veedoc_SessionHistory()[pri:2, instance:Tests.TestVeeDoc_SessionHistory@15043a2f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- Tests.TestVeeDoc_SessionHistory -->
+    </test> <!-- Session History -->
+    <test started-at="2022-08-05T15:53:08 PKT" name="Endpoint Session" finished-at="2022-08-05T15:57:14 PKT" duration-ms="245552">
+      <class name="Tests.BaseClass">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.BaseClass@2d901eb0]" started-at="2022-08-05T15:53:08 PKT" name="setup" finished-at="2022-08-05T15:53:23 PKT" duration-ms="15306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Tests.BaseClass@2d901eb0]" started-at="2022-08-05T15:57:14 PKT" name="teardown" finished-at="2022-08-05T15:57:14 PKT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Tests.BaseClass -->
+      <class name="Tests.TestVeeDoc_EndPointSession">
+        <test-method is-config="true" signature="before_test()[pri:0, instance:Tests.TestVeeDoc_EndPointSession@3ba987b8]" started-at="2022-08-05T15:53:23 PKT" name="before_test" finished-at="2022-08-05T15:53:23 PKT" depends-on-methods="Tests.BaseClass.setup" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before_test -->
+        <test-method signature="Veedoc_OfflineEndpointFavourite()[pri:1, instance:Tests.TestVeeDoc_EndPointSession@3ba987b8]" started-at="2022-08-05T15:53:23 PKT" name="Veedoc_OfflineEndpointFavourite" finished-at="2022-08-05T15:54:00 PKT" duration-ms="36986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Veedoc_OfflineEndpointFavourite -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:Tests.TestVeeDoc_EndPointSession@3ba987b8]" started-at="2022-08-05T15:53:23 PKT" name="startTest" finished-at="2022-08-05T15:53:23 PKT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.TestVeeDoc_EndPointSession.Veedoc_OfflineEndpointFavourite() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:Tests.TestVeeDoc_EndPointSession@3ba987b8]" started-at="2022-08-05T15:54:00 PKT" name="startTest" finished-at="2022-08-05T15:54:00 PKT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.TestVeeDoc_EndPointSession.Veedoc_ConnectEndpoint() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="Veedoc_ConnectEndpoint()[pri:2, instance:Tests.TestVeeDoc_EndPointSession@3ba987b8]" started-at="2022-08-05T15:54:00 PKT" name="Veedoc_ConnectEndpoint" finished-at="2022-08-05T15:55:35 PKT" duration-ms="94243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Veedoc_ConnectEndpoint -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.TestVeeDoc_EndPointSession@3ba987b8]" started-at="2022-08-05T15:54:00 PKT" name="getResult" finished-at="2022-08-05T15:54:00 PKT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Veedoc_OfflineEndpointFavourite status=SUCCESS method=TestVeeDoc_EndPointSession.Veedoc_OfflineEndpointFavourite()[pri:1, instance:Tests.TestVeeDoc_EndPointSession@3ba987b8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.TestVeeDoc_EndPointSession@3ba987b8]" started-at="2022-08-05T15:55:35 PKT" name="getResult" finished-at="2022-08-05T15:55:35 PKT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Veedoc_ConnectEndpoint status=SUCCESS method=TestVeeDoc_EndPointSession.Veedoc_ConnectEndpoint()[pri:2, instance:Tests.TestVeeDoc_EndPointSession@3ba987b8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:Tests.TestVeeDoc_EndPointSession@3ba987b8]" started-at="2022-08-05T15:55:35 PKT" name="startTest" finished-at="2022-08-05T15:55:35 PKT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.TestVeeDoc_EndPointSession.Veedoc_BusyEndpoint() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="Veedoc_BusyEndpoint()[pri:3, instance:Tests.TestVeeDoc_EndPointSession@3ba987b8]" started-at="2022-08-05T15:55:35 PKT" name="Veedoc_BusyEndpoint" finished-at="2022-08-05T15:57:14 PKT" duration-ms="98985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Veedoc_BusyEndpoint -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.TestVeeDoc_EndPointSession@3ba987b8]" started-at="2022-08-05T15:57:14 PKT" name="getResult" finished-at="2022-08-05T15:57:14 PKT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Veedoc_BusyEndpoint status=SUCCESS method=TestVeeDoc_EndPointSession.Veedoc_BusyEndpoint()[pri:3, instance:Tests.TestVeeDoc_EndPointSession@3ba987b8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- Tests.TestVeeDoc_EndPointSession -->
+    </test> <!-- Endpoint Session -->
+    <test started-at="2022-08-05T15:57:14 PKT" name="Quick Appointment" finished-at="2022-08-05T15:58:11 PKT" duration-ms="57084">
+      <class name="Tests.BaseClass">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.BaseClass@18271936]" started-at="2022-08-05T15:57:14 PKT" name="setup" finished-at="2022-08-05T15:57:28 PKT" duration-ms="14228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Tests.BaseClass@18271936]" started-at="2022-08-05T15:58:11 PKT" name="teardown" finished-at="2022-08-05T15:58:11 PKT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Tests.BaseClass -->
+      <class name="Tests.TestVeeDoc_QuickAppointment">
+        <test-method is-config="true" signature="before_test()[pri:0, instance:Tests.TestVeeDoc_QuickAppointment@606e4010]" started-at="2022-08-05T15:57:28 PKT" name="before_test" finished-at="2022-08-05T15:57:28 PKT" depends-on-methods="Tests.BaseClass.setup" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before_test -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:Tests.TestVeeDoc_QuickAppointment@606e4010]" started-at="2022-08-05T15:57:28 PKT" name="startTest" finished-at="2022-08-05T15:57:28 PKT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.TestVeeDoc_QuickAppointment.Veedoc_QuickAppointment(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="Veedoc_QuickAppointment(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Tests.TestVeeDoc_QuickAppointment@606e4010]" started-at="2022-08-05T15:57:28 PKT" name="Veedoc_QuickAppointment" data-provider="appointdata" finished-at="2022-08-05T15:58:11 PKT" duration-ms="42810" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hassaan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Khatri]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[hassaan.khatri@veemed.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[3233887515]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Veedoc_QuickAppointment -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.TestVeeDoc_QuickAppointment@606e4010]" started-at="2022-08-05T15:58:11 PKT" name="getResult" finished-at="2022-08-05T15:58:11 PKT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Veedoc_QuickAppointment status=SUCCESS method=TestVeeDoc_QuickAppointment.Veedoc_QuickAppointment(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Tests.TestVeeDoc_QuickAppointment@606e4010] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- Tests.TestVeeDoc_QuickAppointment -->
+    </test> <!-- Quick Appointment -->
+    <test started-at="2022-08-05T15:58:11 PKT" name="Inpatient Schedule" finished-at="2022-08-05T15:58:46 PKT" duration-ms="35452">
+      <class name="Tests.BaseClass">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.BaseClass@5b218417]" started-at="2022-08-05T15:58:11 PKT" name="setup" finished-at="2022-08-05T15:58:27 PKT" duration-ms="16558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Tests.BaseClass@5b218417]" started-at="2022-08-05T15:58:46 PKT" name="teardown" finished-at="2022-08-05T15:58:46 PKT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Tests.BaseClass -->
+      <class name="Tests.TestVeeDoc_InpatientSchedule">
+        <test-method is-config="true" signature="before_test()[pri:0, instance:Tests.TestVeeDoc_InpatientSchedule@645aa696]" started-at="2022-08-05T15:58:27 PKT" name="before_test" finished-at="2022-08-05T15:58:27 PKT" depends-on-methods="Tests.BaseClass.setup" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before_test -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:Tests.TestVeeDoc_InpatientSchedule@645aa696]" started-at="2022-08-05T15:58:27 PKT" name="startTest" finished-at="2022-08-05T15:58:27 PKT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.TestVeeDoc_InpatientSchedule.Veedoc_InpatientTab() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="Veedoc_InpatientTab()[pri:0, instance:Tests.TestVeeDoc_InpatientSchedule@645aa696]" started-at="2022-08-05T15:58:27 PKT" name="Veedoc_InpatientTab" finished-at="2022-08-05T15:58:46 PKT" duration-ms="18862" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Veedoc_InpatientTab -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.TestVeeDoc_InpatientSchedule@645aa696]" started-at="2022-08-05T15:58:46 PKT" name="getResult" finished-at="2022-08-05T15:58:46 PKT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Veedoc_InpatientTab status=SUCCESS method=TestVeeDoc_InpatientSchedule.Veedoc_InpatientTab()[pri:0, instance:Tests.TestVeeDoc_InpatientSchedule@645aa696] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- Tests.TestVeeDoc_InpatientSchedule -->
+    </test> <!-- Inpatient Schedule -->
+    <test started-at="2022-08-05T15:58:46 PKT" name="Profile" finished-at="2022-08-05T16:00:21 PKT" duration-ms="95322">
+      <class name="Tests.TestVeeDoc_ProfileUpdate">
+        <test-method is-config="true" signature="before_test()[pri:0, instance:Tests.TestVeeDoc_ProfileUpdate@353352b6]" started-at="2022-08-05T15:58:58 PKT" name="before_test" finished-at="2022-08-05T15:58:58 PKT" depends-on-methods="Tests.BaseClass.setup" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before_test -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:Tests.TestVeeDoc_ProfileUpdate@353352b6]" started-at="2022-08-05T15:58:58 PKT" name="startTest" finished-at="2022-08-05T15:58:58 PKT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.TestVeeDoc_ProfileUpdate.Veedoc_ProfileUpdate(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="Veedoc_ProfileUpdate(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Tests.TestVeeDoc_ProfileUpdate@353352b6]" started-at="2022-08-05T15:58:58 PKT" name="Veedoc_ProfileUpdate" data-provider="profileUpdate" finished-at="2022-08-05T16:00:21 PKT" duration-ms="83569" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[QA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hassaan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3233887515]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Hassaan]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Khatri]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[3233887515]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Veedoc_ProfileUpdate -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.TestVeeDoc_ProfileUpdate@353352b6]" started-at="2022-08-05T16:00:21 PKT" name="getResult" finished-at="2022-08-05T16:00:21 PKT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Veedoc_ProfileUpdate status=SUCCESS method=TestVeeDoc_ProfileUpdate.Veedoc_ProfileUpdate(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Tests.TestVeeDoc_ProfileUpdate@353352b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- Tests.TestVeeDoc_ProfileUpdate -->
+      <class name="Tests.BaseClass">
+        <test-method is-config="true" signature="setupReport()[pri:0, instance:Tests.BaseClass@5032714f]" started-at="2022-08-05T15:46:15 PKT" name="setupReport" finished-at="2022-08-05T15:46:15 PKT" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.BaseClass@5032714f]" started-at="2022-08-05T15:58:46 PKT" name="setup" finished-at="2022-08-05T15:58:58 PKT" duration-ms="11711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Tests.BaseClass@5032714f]" started-at="2022-08-05T16:00:21 PKT" name="teardown" finished-at="2022-08-05T16:00:21 PKT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="teardownReport()[pri:0, instance:Tests.BaseClass@5032714f]" started-at="2022-08-05T16:00:21 PKT" name="teardownReport" finished-at="2022-08-05T16:00:22 PKT" duration-ms="288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownReport -->
+      </class> <!-- Tests.BaseClass -->
+    </test> <!-- Profile -->
+  </suite> <!-- Suite -->
+</testng-results>
