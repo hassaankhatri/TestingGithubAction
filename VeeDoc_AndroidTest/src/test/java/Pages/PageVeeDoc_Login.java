@@ -53,6 +53,13 @@ public class PageVeeDoc_Login extends BasePage{
 		
 	}
 	
+	public void clickTestButton() throws Exception {
+		
+		//utility.Wait();
+		utility.clickElement(By.className("android.widget.Button"));
+		
+	}
+	
 //	@DataProvider(name="logindata")
 //	public Object[][] passData(){
 //		
