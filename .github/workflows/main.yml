@@ -12,7 +12,7 @@ jobs:
       runs-on: ubuntu-latest
       strategy: # we are using strategy if we need to run on parallel with different devices and version
         matrix:
-          api-level: [21] #Google api level for example [25,23,28]
+          api-level: [29] #Google api level for example [25,23,28]
           target: [default]
 
       steps:
