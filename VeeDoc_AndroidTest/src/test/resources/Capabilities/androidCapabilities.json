@@ -5,5 +5,5 @@
   "version": "11.0",
   "emulator": "Android Emulator",
   "noReset": "false",
-  "app": "/../app/build/outputs/apk/qa/debug/app-qa-debug.apk"
+  "app": "/../app/build/outputs/apk/debug/app-debug.apk"
 }
