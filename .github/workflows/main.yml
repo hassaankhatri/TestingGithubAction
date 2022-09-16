@@ -1,0 +1,59 @@
+on:
+  workflow_dispatch:
+  
+name: Build apk and run Appium Cases
+    
+#Generating jobs: Execute job when trigger is hit.
+jobs:
+
+ #Generate an apk and Run tests
+  build:
+      name: Generating APK and Run tests
+      runs-on: ubuntu-latest
+      strategy: # we are using strategy if we need to run on parallel with different devices and version
+        matrix:
+          api-level: [21] #Google api level for example [25,23,28]
+          target: [default]
+
+      steps:
+        - uses: actions/checkout@v1
+
+        - name: set up JDK
+          uses: actions/setup-java@v1
+          with:
+            java-version: 11
+
+        - name: Grant Permission to Execute
+          run: chmod +x gradlew
+
+        - name: Build debuging APK
+          run: bash ./gradlew assembleDebug --stacktrace
+          
+        - name: Save qa apk
+          uses: actions/upload-artifact@v3
+          with:
+            name: app-debug
+            path: app/build/outputs/apk/debug/app-debug.apk
+            
+        - name: Android Emulator
+          uses: ReactiveCircus/android-emulator-runner@v2
+          with:
+            arch: x86_64
+            api-level: ${{ matrix.api-level }}
+            target: ${{ matrix.target }}
+            profile: Nexus 6
+            cores: 4
+            ram-size: 4096M
+            disk-size: 8G
+            heap-size: 2048M
+            working-directory: ./VeeDoc_AndroidTest
+            script: |
+              npm install -g appium
+              appium -a 127.0.0.1 & mvn clean test -DsuiteXmlFile=testng.xml
+              appium &>/dev/null &
+              
+        - name: Save automation report
+          uses: actions/upload-artifact@v3
+          with:
+            name: VeeDocAutomationResults
+            path: VeeDoc_AndroidTest/VeeDocAutomationResults.html
