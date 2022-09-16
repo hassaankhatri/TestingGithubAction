@@ -37,6 +37,9 @@ public class BaseClass extends Reports {
 		capa.setCapability(MobileCapabilityType.DEVICE_NAME, jsonReader.getValue("emulator"));
 		capa.setCapability("no",true);
 		capa.setCapability("newCommandTimeout", 100000);
+		capa.setCapability("uiautomator2ServerInstallTimeout", 100000);
+		capa.setCapability("adbExecTimeout", 100000);
+		capa.setCapability("androidInstallTimeout", 200000);
 		//capa.setCapability(MobileCapabilityType.APP, "C:\\Apks\\veedoc-user-v2.3.0.4-Sep-23-qa-debug.apk");
 		
 		if(!apkFilePath.contains(".apk")) {
