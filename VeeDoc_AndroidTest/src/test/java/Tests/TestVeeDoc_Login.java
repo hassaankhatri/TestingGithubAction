@@ -40,30 +40,31 @@ public class TestVeeDoc_Login extends BaseClass{
 	@Test(dataProvider = "logindata")
 	public void Veedoc_Login(String email, String pass, String verifyName) throws Exception {
         
-        //*********Page class of Veedoc Login**********
+//        //*********Page class of Veedoc Login**********
         PageVeeDoc_Login loginpage = new PageVeeDoc_Login(driver);
- 
-		//functions for login to Veedoc with valid credentials
-		loginpage.enterCreds(email, pass);
-		test.log(Status.INFO, "Enter Email, Password to Login");
+// 
+//		//functions for login to Veedoc with valid credentials
+//		loginpage.enterCreds(email, pass);
+//		test.log(Status.INFO, "Enter Email, Password to Login");
+//		
+//		//functions for Click on Login Button
+//		loginpage.clickonLoginBtn();
+//		test.log(Status.INFO, "Clicked on Login Button");
+//		
+//		//**********Page class of Veedoc Dashboard*********
+//		PageVeeDoc_Dashboard dashboard =  new PageVeeDoc_Dashboard(driver);
+//		softAssert = new SoftAssert();
+//		//following is the verification to Verify the Logged-in User name must be displayed on dashboard
+//		softAssert.assertEquals(dashboard.getName(), verifyName);
+//		test.log(Status.INFO, "User must be logged in with the Specified User, User name must be displayed");
+//		
+//		//functions for Signout
+//		dashboard.signOut();
+//		test.log(Status.INFO, "Clicked on SignOut Button");
+//		
+//		test.log(Status.INFO, "VeeDoc Login Test Completed");
 		
-		//functions for Click on Login Button
-		loginpage.clickonLoginBtn();
-		test.log(Status.INFO, "Clicked on Login Button");
-		
-		//**********Page class of Veedoc Dashboard*********
-		PageVeeDoc_Dashboard dashboard =  new PageVeeDoc_Dashboard(driver);
-		softAssert = new SoftAssert();
-		//following is the verification to Verify the Logged-in User name must be displayed on dashboard
-		softAssert.assertEquals(dashboard.getName(), verifyName);
-		test.log(Status.INFO, "User must be logged in with the Specified User, User name must be displayed");
-		
-		//functions for Signout
-		dashboard.signOut();
-		test.log(Status.INFO, "Clicked on SignOut Button");
-		
-		test.log(Status.INFO, "VeeDoc Login Test Completed");
-		
+		loginpage.clickTestButton();
 		
 		
 		
